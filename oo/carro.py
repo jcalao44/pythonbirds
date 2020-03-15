@@ -95,7 +95,7 @@ A Direção terá a responsabilidade de controlar a direção. Ela oferece os se
         >>> 'Oeste'
 """
 
-'''
+
 NORTE = 'Norte'
 SUL = 'Sul'
 LESTE = 'Leste'
@@ -119,7 +119,7 @@ class Direcao:
         self.valor = self.rotacao_a_esquerda_dct[self.valor]
 
 
-'''
+
 
 class Motor:
     def __init__(self):
